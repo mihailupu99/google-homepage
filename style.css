@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.logo {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+
+}
+
+.searchbox {
+    margin-top: 250px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.search {
+    padding: 13px; 
+    margin: 30px;
+    border-radius: 24px;
+    width: 470px;
+    
+}
+
+.searchlogo {
+    height: 20px;
+    position: relative;
+    top: 5px;
+    right: 75px;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.search:hover {
+    box-shadow: 2px 2px gray;
+}
+
+.nicebuttons {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.nicebuttons:hover {
+    border: 1px solid gray;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    color: #000;
+    display: block;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    font-size:14px;
+  }
+
+.apps{
+    height:23px;
+    position:relative;
+    bottom:4px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.signbutton{ 
+    background-color: #236ff1;
+    color: #fff;
+    border:none;
+    border-radius:3px;
+    padding:7px 10px;
+    position:relative;
+    bottom:7px;
+    font-weight:bold;
+}
+
+.signbutton:hover {
+    background-color: #6195f0;
+}
+
+footer li {
+    float: left;
+}
+
+.endfooter {
+    text-align: left;
+    overflow: hidden;
+    background-color: #dadce0;
+    color: rgba(0,0,0,.54);
+    position: absolute; 
+    bottom: 0px; 
+    height:35px;
+    width:100%;
+}
+
+.right {
+    float: right;
+}
